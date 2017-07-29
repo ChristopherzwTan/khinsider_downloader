@@ -1,6 +1,6 @@
 #!/bin/bash
 
-main_url=https://downloads.khinsider.com/game-soundtracks/album/ryu-ga-gotoku-zero-yakuza-0-ost-a-and-b-sides-
+main_url=$1
 
 # First get the initial webpage that holds all the links
 wget $main_url
